@@ -5,7 +5,7 @@ MAINTAINER Duvane Deslandes <dpdeslandes@gmail.com>
 ENV TERM=xterm-256color
 
 # Set mirrors 
-RUN sed -i "s/http:\/\/archive./http:\/\/nz.archive./g" /etc/apt/sources.list
+RUN sed -i "s/http:\/\/archive./http:\/\/gb.archive./g" /etc/apt/sources.list
 
 RUN apt-get update && \ 
     apt-get install -y \
